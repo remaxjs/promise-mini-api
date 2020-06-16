@@ -1,0 +1,24 @@
+{
+  "name": "promise-mini-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "ali.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "mini-types": "^0.1.2",
+    "miniprogram-api-typings": "^2.11.0-1"
+  }
+}
