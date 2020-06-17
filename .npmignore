@@ -1,0 +1,9 @@
+node_modules/
+*.test.*
+ali.ts
+wechat.ts
+promisify.ts
+toutiao.ts
+tsconfig.json
+yarn.lock
+jest.config.js
